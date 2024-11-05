@@ -1,6 +1,6 @@
 # Usage #
 
-![ARS on MNIST](https://github.com/jwcalder/AttractionRepulsionSwarming-tSNE/raw/master/images/ARS.png)
+![ARS on MNIST](https://github.com/jwcalder/AttractionRepulsionSwarming-tSNE/raw/main/images/ARS.png)
 
 This repository implements the Attraction-Repulsion Swarming (ARS) t-SNE variant from [1]. This code is adapted from [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne/tree/master). Please see that repository for instructions on how to compile the C++ code. Example usage to run the code from this repository in python is given below.
 
