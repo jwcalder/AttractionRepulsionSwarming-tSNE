@@ -1,8 +1,12 @@
-# Usage #
+# Attraction-Repulsion Swarming t-SNE Visualization
 
 ![ARS on MNIST](https://github.com/jwcalder/AttractionRepulsionSwarming-tSNE/raw/main/images/ARS.png)
 
-This repository implements the Attraction-Repulsion Swarming (ARS) t-SNE variant from [1]. This code is adapted from [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne/tree/master). Please see that repository for instructions on how to compile the C++ code. Example usage to run the code from this repository in python is given below.
+This repository implements the Attraction-Repulsion Swarming (ARS) t-SNE variant from [1]. This code is adapted from [Barnes-Hut t-SNE](https://github.com/lvdmaaten/bhtsne/tree/master). Please see that repository for instructions on how to compile the C++ code. 
+
+## Usage 
+
+Example usage to run the code from this repository in python is given below.
 
 ```
 import arstsne
@@ -18,7 +22,7 @@ plt.show()
 
 The script `experiments.py` runs a number of experiments with ARS t-SNE with different parameter values, as reported in the paper. All results are stored in the `results/` folder. 
 
-# GraphLearning Implementation #
+## GraphLearning Implementation 
 
 The code is also now available in the [GraphLearning](https://github.com/jwcalder/GraphLearning) Python package, which does not require the user to compile C code. First install GraphLearning:
 
@@ -50,7 +54,7 @@ plt.scatter(Y[:,0],Y[:,1],c=labels,s=1)
 plt.show()
 ```
 
-# References #
+## References 
 
 [1] J. Lu, J. Calder. [Attraction-Repulsion Swarming: A Generalized Framework of t-SNE via Force Normalization and Tunable Interactions](https://arxiv.org/abs), Submitted, 2024.
 
