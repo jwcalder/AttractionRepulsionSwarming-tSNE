@@ -18,7 +18,13 @@ The script `experiments.py` runs a number of experiments with ARS t-SNE with dif
 
 # GraphLearning Implementation #
 
-The code is also now available in the [GraphLearning](https://github.com/jwcalder/GraphLearning) Python package, which does not require the user to compile C code. Example usage is below.
+The code is also now available in the [GraphLearning](https://github.com/jwcalder/GraphLearning) Python package, which does not require the user to compile C code. First install GraphLearning:
+
+```
+pip install graphlearning
+```
+
+Example usage within GraphLearning is below.
 
 ```
 import graphlearning as gl 
